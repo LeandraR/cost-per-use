@@ -1,11 +1,6 @@
-var config = {
-    apiKey: "AIzaSyDjwRIylT1T1Ze8yX5JNh4jqfho7ggtAOs",
-    authDomain: "cost-per-use-452b1.firebaseapp.com",
-    databaseURL: "https://cost-per-use-452b1.firebaseio.com",
-    projectId: "cost-per-use-452b1",
-    storageBucket: "cost-per-use-452b1.appspot.com",
-    messagingSenderId: "983429374152"
-};
+var fire = config.config;
+
+
 firebase.initializeApp(config);
 
 var database = firebase.database();
